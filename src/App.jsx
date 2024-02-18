@@ -64,7 +64,7 @@ const ProductFilter = () => {
   return (
     <>
       <p className="bg-gray-800">Filter your products</p>
-      <div className="w-screen bg-blue-100 mx-auto p-4 grid grid-cols-4 gap-4 font-mono">
+      <div className="w-screen bg-blue-100 mx-auto p-4 grid sm:grid-cols-4 gap-4 font-mono">
         <div className="col-span-1">
           <div className="mb-4">
             <p className="my-3 font-bold">Filter your products:</p>
@@ -112,11 +112,11 @@ const ProductFilter = () => {
             Apply Filter
           </button>
         </div>
-        <div className="col-span-3 grid grid-cols-3 gap-4">
+        <div className="col-span-3 sm:grid grid-cols-3 gap-4">
           {filteredProducts.map((product) => (
             <div
               key={product.id}
-              className="bg-blue-200 rounded-lg p-4 shadow-lg"
+              className="bg-blue-200 rounded-lg p-4 shadow-lg  mt-4"
             >
               <h3 className="text-lg font-semibold">{product.name}</h3>
               <p className="text-gray-700">RM {product.price}</p>
