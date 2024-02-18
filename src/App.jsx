@@ -63,7 +63,7 @@ const ProductFilter = () => {
 
   return (
     <>
-      <p className="bg-gray-800">Filter your products</p>
+      <p className="bg-gray-800">.</p>
       <div className="w-screen bg-blue-100 mx-auto p-4 grid sm:grid-cols-4 gap-4 font-mono">
         <div className="col-span-1">
           <div className="mb-4">
